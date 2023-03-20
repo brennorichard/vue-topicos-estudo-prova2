@@ -41,7 +41,7 @@ function incrementar() {
 
 async function atualizar() {
   try {
-    usuarios.value = (await axios.get('https://8080-mineda-springtopicos202-wojfos5znh2.ws-us90.gitpod.io/usuario')).data;
+    usuarios.value = (await axios.get('usuario')).data;
     erro.value = '';
   }
   catch(ex) {
@@ -51,7 +51,7 @@ async function atualizar() {
 
 async function cadastrar() {
   try {
-    await axios.post('https://8080-mineda-springtopicos202-wojfos5znh2.ws-us90.gitpod.io/usuario', 
+    await axios.post('usuario', 
       {
         nome: nome.value,
         senha: senha.value
