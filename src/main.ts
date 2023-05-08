@@ -6,7 +6,7 @@ import router from './router'
 
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://8080-mineda-springtopicos202-wojfos5znh2.ws-us95.gitpod.io/'
+axios.defaults.baseURL = 'https://8080-mineda-springtopicos202-wojfos5znh2.ws-us96b.gitpod.io/'
 
 import './assets/main.css'
 
