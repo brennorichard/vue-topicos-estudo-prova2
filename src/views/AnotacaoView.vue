@@ -27,6 +27,7 @@ async function atualizar() {
     await store.getChartData();
     chartData.value = store.chartData;
     showChart.value = true;
+    console.log(chartData.value);
 }
 
 onMounted(() => {
